@@ -3,7 +3,7 @@
 color variables defined
 */
 :root {
-  --paleBlue: hsl(225, 100%, 94%);
+  --white: #ffffff;
 }
 /* Box sizing to border-box Reset 
     Also setting font size to 100% to use rems
@@ -28,7 +28,7 @@ body {
   font-size: 1rem; /* 16px by default */
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: var(--paleBlue);
+  background-color: var(--white);
 }
 
 /* Credit information below code */
@@ -43,6 +43,12 @@ body {
 
 /* Mobile First ----------------------------  */
 
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  border: red solid;
+}
+
 h1 {
   font-family: "Inconsolata", serif;
   font-size: 1.5rem;
@@ -54,4 +60,17 @@ h2 {
   font-family: "Space Mono", serif;
   font-size: 3rem;
   font-weight: 700;
+  margin-left: 24px;
+  margin-right: 1px;
+}
+
+.container img {
+  width: 286px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 64px;
+}
+
+header {
+  margin-left: 24px;
 }
