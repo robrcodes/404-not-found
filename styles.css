@@ -4,6 +4,10 @@ color variables defined
 */
 :root {
   --white: #ffffff;
+  --vlightgray: #bdbdbd;
+
+  --lightgray: #4f4f4f;
+  --darkgray: #333333;
 }
 /* Box sizing to border-box Reset 
     Also setting font size to 100% to use rems
@@ -28,17 +32,7 @@ body {
   font-size: 1rem; /* 16px by default */
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: var(--white);
-}
-
-/* Credit information below code */
-
-.createdBy {
-  font-size: 0.68rem;
-  text-align: center;
-}
-.createdBy a {
-  color: hsl(228, 45%, 44%);
+  background-color: var(--darkgray);
 }
 
 /* Mobile First ----------------------------  */
@@ -46,7 +40,8 @@ body {
 .container {
   max-width: 375px;
   margin: 0 auto;
-  border: red solid;
+  background-color: var(--white);
+  border-radius: 8px;
 }
 
 h1 {
@@ -54,12 +49,17 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 
 h2 {
   font-family: "Space Mono", serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 3rem;
-  font-weight: 700;
+  line-height: 4.438rem;
+  letter-spacing: -0.035em;
+  color: var(--darkgray);
   margin-left: 24px;
   margin-right: 1px;
 }
@@ -74,3 +74,53 @@ h2 {
 header {
   margin-left: 24px;
 }
+
+.not-found-text p {
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  letter-spacing: -0.035em;
+  color: var(--lightgray);
+  margin-left: 23px;
+  margin-right: 24px;
+  margin-bottom: 0px;
+}
+
+.btn-homepage {
+  background-color: var(--darkgray);
+  color: var(--white);
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  margin-top: 66px;
+  margin-left: 24px;
+  margin-bottom: 0px;
+  padding: 24px 43px 23px 43px;
+}
+
+/* Credit information at bottom */
+.createdBy {
+  font-family: "Montserrat", serif;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--vlightgray);
+  margin-top: 114px;
+  padding-bottom: 24px;
+}
+.createdBy a {
+  color: var(--vlightgray);
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* End of Mobile First styles ----------------------------  */
+
+/* Desktop Version Below */
