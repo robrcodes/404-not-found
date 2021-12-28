@@ -32,7 +32,7 @@
 
 ## Features
 
-This 404 example page was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an a simple 404 page using a design provided on Figma.
+This 404 example page was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build a simple 404 page using a design provided on Figma.
 
 ## Acknowledgements
 
