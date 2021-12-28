@@ -50,6 +50,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 20px;
+  margin-left: 6.4%; /* 24px */
 }
 
 h2 {
@@ -60,19 +61,20 @@ h2 {
   line-height: 4.438rem;
   letter-spacing: -0.035em;
   color: var(--darkgray);
-  margin-left: 24px;
+  margin-left: 6.4%; /*24px */
   margin-right: 1px;
 }
 
 .container img {
-  width: 286px;
-  margin-left: 24px;
-  margin-right: 24px;
+  /* max-width: 286px; */
+  width: 87%;
+  margin-left: 6.4%; /* 24px */
+  margin-right: 6.4%; /* 24px */
   margin-top: 64px;
 }
 
 header {
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 .not-found-text p {
@@ -83,8 +85,8 @@ header {
   line-height: 1.688rem;
   letter-spacing: -0.035em;
   color: var(--lightgray);
-  margin-left: 23px;
-  margin-right: 24px;
+  margin-left: 6.4%; /*23px*/
+  margin-right: 6.4% /*24px*/
   margin-bottom: 0px;
 }
 
@@ -99,7 +101,7 @@ header {
   letter-spacing: -0.035em;
   text-transform: uppercase;
   margin-top: 66px;
-  margin-left: 24px;
+  margin-left: 6.4%; /*24px*/
   margin-bottom: 0px;
   padding: 24px 43px 23px 43px;
 }
@@ -124,3 +126,18 @@ header {
 /* End of Mobile First styles ----------------------------  */
 
 /* Desktop Version Below */
+
+@media (min-width: 768px) {
+  
+  .container {
+    max-width: 1440px;
+    background-color: wheat;
+  }
+
+
+
+
+}
+
+
+
